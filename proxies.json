@@ -1,0 +1,17 @@
+{
+    "$schema": "http://json.schemastore.org/proxies",
+    "proxies": {
+        "trigger1": {
+            "matchCondition": {
+                "route": "/helloword"
+            },
+            "backendUri": "https://sfxug.azurewebsites.net/api/HttpTriggerCSharp?code=JbxDhZXa0viuZUFrpP4k4uuaK6yfM9sUK46aFJ/w7UxGasRjmMohlQ=="
+        },
+        "homepage": {
+            "matchCondition": {
+                "route": "/"
+            },
+            "backendUri": "https://sfxug8d93.blob.core.windows.net/staticcontent/default.html"
+        }
+    }
+}
